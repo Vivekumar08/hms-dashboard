@@ -16,7 +16,7 @@ const CardComponent = ({
   return (
     <>
       <div className="flex items-center gap-5">
-        {details?.purpose && (
+        {details?.purpose || snapshotInfo  &&(
           <img
             class="w-24 h-24 mb-3 rounded-full shadow-lg"
             src={
