@@ -23,7 +23,7 @@ const Home = () => {
     "Dec",
   ];
   return (
-    <div className=" flex w-full p-10 h-[90vh]">
+    <div className=" flex w-full p-10 ">
       <div className="w-[35%]">
         <MenuSearch />
         <SideBar />
@@ -39,8 +39,8 @@ const Home = () => {
             />
           </span>
         </div>
-        <div className="flex w-full mx-6">
-          <div className="w-[45%]">
+        <div className="flex w-full h-full mx-6">
+          <div className="w-[60%] h-full">
             <SelectionAppointment />
 
             <CardComponent

@@ -17,7 +17,7 @@ const DoubleBooking = () => {
           status: "Follow up",
           tag: "10% No Show",
         }}
-        tagPosition={"right-14 bottom-0"}
+        tagPosition={"right-6 bottom-0"}
       />
     </div>
   );
